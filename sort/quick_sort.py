@@ -20,12 +20,12 @@ def quick_sort_between(a: List[int], low: int, high: int):
 def partition(a: List[int], low: int, high: int):
     pivot = a[high]
     i, j = low, low
-    while j <= high:
-        if a[j] < pivot:
+    while j < high:
+        if a[j] <= pivot:
             a[i], a[j] = a[j], a[i]
             i += 1
         j += 1
-    a[i], a[j - 1] = a[j - 1], a[i]
+    a[i], a[j] = a[j], a[i]
     return i
 
 
