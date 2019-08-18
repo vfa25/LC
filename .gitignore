@@ -1,3 +1,5 @@
 node_modules
 /datastructure/*.iml
 /datastructure/out
+/algorithms/*.iml
+/algorithms/out
