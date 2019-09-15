@@ -2,13 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7f34a70c-0b0d-453b-9f3c-609c14f6ccce" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/trie/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/trie/Trie.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/avltree/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/unionfind/TestUnionFInd.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/unionfind/UF.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/unionfind/UnionFIndVersion01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/unionfind/UnionFindVersion02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/unionfind/UnionFindVersion03.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/unionfind/UnionFindVersion04.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/unionfind/UnionFindVersion05.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/unionfind/UnionFindVersion06.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tree/Merger.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tree/SegmentTree.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../leetcode-notes/tree/303.区域和检索-数组不可变.md" beforeDir="false" afterPath="$PROJECT_DIR$/../leetcode-notes/tree/303.区域和检索-数组不可变.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../leetcode-notes/tree/307.区域和检索-数组可修改.md" beforeDir="false" afterPath="$PROJECT_DIR$/../leetcode-notes/tree/307.区域和检索-数组可修改.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -23,117 +26,25 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/array/Array.java">
+        <entry file="file://$PROJECT_DIR$/src/avltree/Test.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="259">
-              <caret line="21" column="43" selection-start-line="21" selection-start-column="43" selection-end-line="21" selection-end-column="43" />
+            <state relative-caret-position="570">
+              <caret line="38" column="47" lean-forward="true" selection-start-line="38" selection-start-column="47" selection-end-line="38" selection-end-column="47" />
               <folding>
-                <element signature="e#286#287#0" expanded="true" />
-                <element signature="e#310#311#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/trie/Trie.java">
+        <entry file="file://$PROJECT_DIR$/src/avltree/AVLTree.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="105" column="20" selection-start-line="105" selection-start-column="20" selection-end-line="105" selection-end-column="20" />
+            <state relative-caret-position="308">
+              <caret line="114" column="18" selection-start-line="114" selection-start-column="18" selection-end-line="114" selection-end-column="18" />
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#305#306#0" expanded="true" />
-                <element signature="e#332#333#0" expanded="true" />
-                <element signature="e#541#542#0" expanded="true" />
-                <element signature="e#562#563#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/trie/Test.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="192">
-              <caret line="13" column="36" lean-forward="true" selection-start-line="13" selection-start-column="36" selection-end-line="13" selection-end-column="36" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/set/TestSet.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="22" column="30" selection-start-line="22" selection-start-column="27" selection-end-line="22" selection-end-column="30" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/set/Set.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" selection-start-line="3" selection-end-line="7" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/map/TestMap.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="7" selection-start-line="7" selection-end-line="28" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/set/LinkedListSet.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="4" column="47" lean-forward="true" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="47" />
-              <folding>
-                <element signature="e#156#157#0" expanded="true" />
-                <element signature="e#197#198#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/linkedlist/LinkedList.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1800">
-              <caret line="142" column="36" selection-start-line="142" selection-start-column="36" selection-end-line="155" selection-end-column="9" />
-              <folding>
-                <element signature="e#312#313#0" expanded="true" />
-                <element signature="e#352#353#0" expanded="true" />
-                <element signature="e#406#407#0" expanded="true" />
-                <element signature="e#449#450#0" expanded="true" />
-                <element signature="e#711#712#0" expanded="true" />
-                <element signature="e#743#744#0" expanded="true" />
-                <element signature="e#1675#1676#0" expanded="true" />
-                <element signature="e#1704#1705#0" expanded="true" />
-                <element signature="e#2872#2873#0" expanded="true" />
-                <element signature="e#2904#2905#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/set/BSTSet.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="22" column="26" selection-start-line="22" selection-start-column="26" selection-end-line="22" selection-end-column="26" />
-              <folding>
-                <element signature="e#402#403#0" expanded="true" />
+                <element signature="e#1226#1227#0" expanded="true" />
+                <element signature="e#1265#1266#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -158,6 +69,12 @@
       <find>words</find>
       <find>com</find>
       <find>Merger</find>
+      <find>ArrayList</find>
+      <find>root</find>
+      <find>size</find>
+      <find>this</find>
+      <find>getHeight</find>
+      <find>private</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -172,15 +89,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/stack/Array.java" />
-        <option value="$PROJECT_DIR$/src/stack/Stack.java" />
-        <option value="$PROJECT_DIR$/src/stack/ArrayStack.java" />
-        <option value="$PROJECT_DIR$/src/array/StaticArray.java" />
-        <option value="$PROJECT_DIR$/src/Solution.java" />
-        <option value="$PROJECT_DIR$/src/Queue.java" />
-        <option value="$PROJECT_DIR$/src/ArrayQueue.java" />
-        <option value="$PROJECT_DIR$/src/queue/ArrayQueue.java" />
-        <option value="$PROJECT_DIR$/src/queue/Queue.java" />
         <option value="$PROJECT_DIR$/src/queue/LoopQueue.java" />
         <option value="$PROJECT_DIR$/src/Main.java" />
         <option value="$PROJECT_DIR$/src/stack/LinkedListStack.java" />
@@ -190,7 +98,6 @@
         <option value="$PROJECT_DIR$/src/linkedlist/ListNode.java" />
         <option value="$PROJECT_DIR$/src/bst/BST.java" />
         <option value="$PROJECT_DIR$/src/bstree/BSTA.java" />
-        <option value="$PROJECT_DIR$/src/bstree/BST.java" />
         <option value="$PROJECT_DIR$/src/set/Set.java" />
         <option value="$PROJECT_DIR$/src/set/BSTSet.java" />
         <option value="$PROJECT_DIR$/src/set/FileOperation.java" />
@@ -199,7 +106,6 @@
         <option value="$PROJECT_DIR$/src/queue/TestQueue.java" />
         <option value="$PROJECT_DIR$/src/map/Map.java" />
         <option value="$PROJECT_DIR$/src/map/LinkedListMap.java" />
-        <option value="$PROJECT_DIR$/src/map/BSTMap.java" />
         <option value="$PROJECT_DIR$/src/map/TestMap.java" />
         <option value="$PROJECT_DIR$/src/array/Array.java" />
         <option value="$PROJECT_DIR$/src/maxheap/MaxHeap.java" />
@@ -217,6 +123,23 @@
         <option value="$PROJECT_DIR$/src/trie/WordDictionary.java" />
         <option value="$PROJECT_DIR$/src/trie/MapSum.java" />
         <option value="$PROJECT_DIR$/src/trie/Trie.java" />
+        <option value="$PROJECT_DIR$/src/unionfind/UF.java" />
+        <option value="$PROJECT_DIR$/src/unionfind/UnionFIndFirstVersion.java" />
+        <option value="$PROJECT_DIR$/src/unionfind/UnionFIndVersion01.java" />
+        <option value="$PROJECT_DIR$/src/unionfind/TestUnionFInd.java" />
+        <option value="$PROJECT_DIR$/src/unionfind/UnionFindVersion01.java" />
+        <option value="$PROJECT_DIR$/src/map/BSTMap.java" />
+        <option value="$PROJECT_DIR$/src/bstree/BST.java" />
+        <option value="$PROJECT_DIR$/src/bstree/BSTMap.java" />
+        <option value="$PROJECT_DIR$/src/unionfind/aa.java" />
+        <option value="$PROJECT_DIR$/src/unionfind/UnionFindVersion03.java" />
+        <option value="$PROJECT_DIR$/src/unionfind/UnionFindVersion04.java" />
+        <option value="$PROJECT_DIR$/src/unionfind/UnionFindVersion05.java" />
+        <option value="$PROJECT_DIR$/src/unionfind/UnionFindVersion06.java" />
+        <option value="$PROJECT_DIR$/src/unionfind/UnionFindVersion02.java" />
+        <option value="$PROJECT_DIR$/src/unionfind/TestUnionFind.java" />
+        <option value="$PROJECT_DIR$/src/avltree/Test.java" />
+        <option value="$PROJECT_DIR$/src/avltree/AVLTree.java" />
       </list>
     </option>
   </component>
@@ -250,7 +173,32 @@
               <item name="datastructure" type="b2602c69:ProjectViewProjectNode" />
               <item name="datastructure" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="avltree" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="datastructure" type="b2602c69:ProjectViewProjectNode" />
+              <item name="datastructure" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="avltree" type="462c0819:PsiDirectoryNode" />
+              <item name="Test" type="1a9f42e2:ClassTreeNode" />
+            </path>
+            <path>
+              <item name="datastructure" type="b2602c69:ProjectViewProjectNode" />
+              <item name="datastructure" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="bstree" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="datastructure" type="b2602c69:ProjectViewProjectNode" />
+              <item name="datastructure" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="linkedlist" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="datastructure" type="b2602c69:ProjectViewProjectNode" />
+              <item name="datastructure" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="map" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="datastructure" type="b2602c69:ProjectViewProjectNode" />
@@ -262,7 +210,7 @@
               <item name="datastructure" type="b2602c69:ProjectViewProjectNode" />
               <item name="datastructure" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="trie" type="462c0819:PsiDirectoryNode" />
+              <item name="unionfind" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -275,17 +223,19 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src" />
-      <recent name="$PROJECT_DIR$" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="stack" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/src/stack" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="avltree" />
+      <recent name="bstree" />
+      <recent name="stack" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src" />
+      <recent name="$PROJECT_DIR$" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -300,13 +250,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Test">
-    <configuration name="MaxHeap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="maxheap.MaxHeap" />
+  <component name="RunManager" selected="Application.Test (1)">
+    <configuration name="AA" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="unionfind.AA" />
       <module name="datastructure" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="maxheap.*" />
+          <option name="PATTERN" value="unionfind.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -314,12 +264,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SegmentTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="tree.SegmentTree" />
+    <configuration name="BB" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="unionfind.BB" />
       <module name="datastructure" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tree.*" />
+          <option name="PATTERN" value="unionfind.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -327,19 +277,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Solution" />
-      <module name="datastructure" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="trie.Test" />
+    <configuration name="Son" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="unionfind.Son" />
       <module name="datastructure" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="trie.*" />
+          <option name="PATTERN" value="unionfind.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -347,12 +290,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestSet" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="set.TestSet" />
+    <configuration name="Test (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="avltree.Test" />
       <module name="datastructure" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="set.*" />
+          <option name="PATTERN" value="avltree.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestUnionFind" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="unionfind.TestUnionFind" />
+      <module name="datastructure" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="unionfind.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -362,11 +318,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Test" />
-        <item itemvalue="Application.SegmentTree" />
-        <item itemvalue="Application.Solution" />
-        <item itemvalue="Application.MaxHeap" />
-        <item itemvalue="Application.TestSet" />
+        <item itemvalue="Application.Test (1)" />
+        <item itemvalue="Application.TestUnionFind" />
+        <item itemvalue="Application.Son" />
+        <item itemvalue="Application.BB" />
+        <item itemvalue="Application.AA" />
       </list>
     </recent_temporary>
   </component>
@@ -396,7 +352,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.37945205" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.34383562" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.40136987" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -451,51 +407,6 @@
     </SUITE>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/stack/Array.java" />
-    <entry file="file://$PROJECT_DIR$/src/array/StaticArray.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-          <folding>
-            <element signature="e#270#271#0" expanded="true" />
-            <element signature="e#294#295#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Solution.java" />
-    <entry file="file://$PROJECT_DIR$/src/Queue.java" />
-    <entry file="file://$PROJECT_DIR$/src/queue/LoopQueue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="960">
-          <caret line="72" selection-start-line="72" selection-end-line="72" />
-          <folding>
-            <element signature="e#306#307#0" expanded="true" />
-            <element signature="e#330#331#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/datastructure.iml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="14" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/linkedlist/GenLinkedList.java" />
-    <entry file="file://$PROJECT_DIR$/src/bst/BST.java" />
-    <entry file="file://$PROJECT_DIR$/src/stack/TestStack.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="27" column="64" selection-start-line="27" selection-start-column="64" selection-end-line="27" selection-end-column="64" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/bstree/BSTA.java" />
     <entry file="file://$PROJECT_DIR$/src/queue/LinkedListQueue.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
@@ -572,13 +483,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/map/Map.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="27" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/map/LinkedListMap.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1380">
@@ -591,17 +495,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/maxheap/Array.java" />
-    <entry file="file://$PROJECT_DIR$/src/map/BSTMap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="12" selection-start-column="12" selection-end-column="12" />
-          <folding>
-            <element signature="e#509#510#0" expanded="true" />
-            <element signature="e#536#537#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/d.java" />
     <entry file="file://$PROJECT_DIR$/src/Sulution.java" />
     <entry file="file://$PROJECT_DIR$/src/maxheap/MaxHeap.java">
@@ -703,38 +596,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/set/BSTSet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="22" column="26" selection-start-line="22" selection-start-column="26" selection-end-line="22" selection-end-column="26" />
-          <folding>
-            <element signature="e#402#403#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/bstree/BST.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3700">
-          <caret line="290" selection-start-line="290" selection-end-line="328" selection-end-column="5" />
-          <folding>
-            <element signature="method#postOrder#1;class#BST#0" />
-            <element signature="e#6867#6868#0" expanded="true" />
-            <element signature="e#6905#6906#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/map/TestMap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="7" selection-start-line="7" selection-end-line="28" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/set/LinkedListSet.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
@@ -815,6 +676,161 @@
             <element signature="e#332#333#0" expanded="true" />
             <element signature="e#541#542#0" expanded="true" />
             <element signature="e#562#563#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/unionfind/UnionFIndFirstVersion.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="31" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/unionfind/UF.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/avltree/BST.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="23" column="1" lean-forward="true" selection-start-line="2" selection-end-line="23" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/map/Map.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="27" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/set/BSTSet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="22" column="26" selection-start-line="22" selection-start-column="26" selection-end-line="22" selection-end-column="26" />
+          <folding>
+            <element signature="e#402#403#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/map/TestMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="56">
+          <caret line="7" column="34" selection-start-line="7" selection-start-column="34" selection-end-line="7" selection-end-column="54" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/bstree/BST.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="35" selection-start-line="5" selection-start-column="35" selection-end-line="5" selection-end-column="35" />
+          <folding>
+            <element signature="method#postOrder#1;class#BST#0" />
+            <element signature="e#6867#6868#0" expanded="true" />
+            <element signature="e#6905#6906#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/map/BSTMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1215">
+          <caret line="87" column="11" selection-start-line="87" selection-start-column="4" selection-end-line="87" selection-end-column="11" />
+          <folding>
+            <element signature="e#509#510#0" expanded="true" />
+            <element signature="e#536#537#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/bstree/BSTMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/unionfind/aa.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="945">
+          <caret line="63" column="61" selection-start-line="63" selection-start-column="61" selection-end-line="63" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/unionfind/UnionFindVersion01.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="4" column="21" lean-forward="true" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/unionfind/UnionFindVersion03.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="33" column="12" selection-start-line="33" selection-start-column="12" selection-end-line="33" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/unionfind/UnionFindVersion04.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-239">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/unionfind/UnionFindVersion05.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/unionfind/UnionFindVersion06.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/unionfind/TestUnionFind.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-165">
+          <caret line="19" column="41" lean-forward="true" selection-start-line="19" selection-start-column="41" selection-end-line="19" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/unionfind/UnionFindVersion02.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/avltree/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="38" column="47" lean-forward="true" selection-start-line="38" selection-start-column="47" selection-end-line="38" selection-end-column="47" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/avltree/AVLTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="114" column="18" selection-start-line="114" selection-start-column="18" selection-end-line="114" selection-end-column="18" />
+          <folding>
+            <element signature="e#1226#1227#0" expanded="true" />
+            <element signature="e#1265#1266#0" expanded="true" />
           </folding>
         </state>
       </provider>
