@@ -41,6 +41,13 @@ public class TestMap {
         LinkedListMap<String, Integer> linkedListMap = new LinkedListMap<>();
         double time2 = testMap(linkedListMap, filename);
         System.out.println("LinkedList Map: " + time2 + "s");
+
+        System.out.println();
+
+        AVLMap<String, Integer> avlMap = new AVLMap<>();
+        double time3 = testMap(avlMap, filename);
+        System.out.println("AVL Map: " + time3 + "s");
+
 //        System.out.println("Pride and Prejudice");
 //        ArrayList<String> words = new ArrayList<>();
 //        if (FileOperation.readFile("src/pride-and-prejudice.txt", words)) {

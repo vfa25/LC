@@ -26,12 +26,17 @@ public class TestSet {
         double time1 = testSet(bstSet, filename);
         System.out.println("BST Set: " + time1 + "s");
 
-
         System.out.println();
 
         LinkedListSet<String> linkedListSet = new LinkedListSet<>();
         double time2 = testSet(linkedListSet, filename);
         System.out.println("LinkedList Set: " + time2 + "s");
+
+        System.out.println();
+
+        AVLSet<String> avlSet = new AVLSet<>();
+        double time3 = testSet(avlSet, filename);
+        System.out.println("AVL Set: " + time3 + "s");
 
 //        System.out.println("Pride and Prejudice");
 //
