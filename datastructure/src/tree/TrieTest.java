@@ -1,9 +1,9 @@
-package trie;
+package tree;
 
 import java.util.ArrayList;
 import set.*;
 
-public class Test {
+public class TrieTest {
     private static double testSet(Set set, String filename) {
         ArrayList<String> words = new ArrayList<>();
 

@@ -1,6 +1,7 @@
 package map;
 
-import avltree.AVLTree;
+import map.Map;
+import tree.AVLTree;
 
 public class AVLMap<K extends Comparable<K>, V> implements Map<K, V> {
     private AVLTree<K, V> avl;

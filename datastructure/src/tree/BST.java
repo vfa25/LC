@@ -1,6 +1,9 @@
-package bstree;
+package tree;
 
-import java.util.*;
+import java.util.ArrayList;
+import java.util.Stack;
+import java.util.LinkedList;
+import java.util.Queue;
 
 // 在本例中，二分搜索树不包含重复元素
 public class BST<E extends Comparable<E>> {

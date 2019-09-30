@@ -1,4 +1,4 @@
-package trie;
+package tree;
 
 import java.util.TreeMap;
 import java.util.Stack;

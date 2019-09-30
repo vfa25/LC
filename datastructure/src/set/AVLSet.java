@@ -1,6 +1,6 @@
 package set;
 
-import avltree.AVLTree;
+import tree.AVLTree;
 
 // 集合仅关注键，忽略值
 public class AVLSet<E extends Comparable<E>> implements Set<E> {

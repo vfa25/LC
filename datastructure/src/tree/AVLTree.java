@@ -1,4 +1,4 @@
-package avltree;
+package tree;
 
 import java.util.ArrayList;
 
