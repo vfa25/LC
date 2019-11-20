@@ -3,4 +3,6 @@ node_modules
 /datastructure/out
 /algorithms/*.iml
 /algorithms/out
+/AlgorithmVisualization/*.iml
+/AlgorithmVisualization/out
 /leetcode-notes/.idea

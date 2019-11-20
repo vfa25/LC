@@ -27,11 +27,22 @@ public class InsertionSort {
             Comparable e = arr[i];
             // j保存元素e应该插入的位置
             int j = i;
-            for(; j > 0 && arr[j].compareTo(arr[j-1]) > 0; j--)
+            for( ; j > 0 && arr[j].compareTo(arr[j-1]) > 0; j--)
                 arr[j] = arr[j-1];
             arr[j] = e;
 
 
+        }
+    }
+
+    // 对arr[l...r]的区间使用InsertionSort排序
+    public static void sort(Comparable[] arr, int l, int r){
+        for(int i = l + 1; i <= r; i ++) {
+            Comparable e = arr[i];
+            int j = i;
+            for( ; j > l && arr[j - 1].compareTo(e) > 0 ; j --)
+                arr[j] = arr[j - 1];
+            arr[j] = e;
         }
     }
 
