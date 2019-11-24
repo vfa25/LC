@@ -59,17 +59,17 @@ public class AlgoFrame extends JFrame {
             g2d.addRenderingHints(hints);
 
             // 具体绘制
-            int w = canvasWidth / data.M();
-            int h = canvasHeight / data.N();
+            int w = canvasWidth / data.W();
+            int h = canvasHeight / data.H();
 
-            for(int i = 0; i < data.N(); i ++)
-                for(int j = 0; j < data.M(); j ++) {
-                    if (data.getMaze(i, j) == MazeData.WALL)
+            for(int i = 0; i < data.H(); i ++)
+                for(int j = 0; j < data.W(); j ++) {
+                    if (data.getMaze(j, i) == MazeData.WALL)
                         AlgoVisHelper.setColor(g2d, AlgoVisHelper.LightBlue);
                     else
                         AlgoVisHelper.setColor(g2d, AlgoVisHelper.White);
 
-                    if (data.path[i][j])
+                    if (data.path[j][i])
                         AlgoVisHelper.setColor(g2d, AlgoVisHelper.Yellow);
 
                     AlgoVisHelper.fillRectangle(g2d, j*w, i*h, w, h);

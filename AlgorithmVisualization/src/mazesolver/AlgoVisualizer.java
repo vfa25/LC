@@ -1,10 +1,11 @@
 package mazesolver;
 
 import java.awt.*;
-import java.awt.event.KeyAdapter;
-import java.awt.event.MouseAdapter;
+import java.awt.event.*;
 
 public class AlgoVisualizer {
+
+    private boolean isAnimated = false;
 
     private static int blockSide = 8;
     private static int DELAY = 5;
@@ -12,7 +13,7 @@ public class AlgoVisualizer {
     private MazeData data;         // 数据
     private AlgoFrame frame;     // 视图
 
-    private static final int d[][] = {{-1,0},{0,1},{1,0},{0,-1}};
+    private static final int d[][] = {{0,-1}, {1,0}, {0,1}, {-1,0}};
 
     public AlgoVisualizer(String mazeFile) {
 
@@ -20,12 +21,13 @@ public class AlgoVisualizer {
         // 构建二维矩阵
         data = new MazeData(mazeFile);
 
-        int sceneWidth = data.N() * blockSide;
-        int sceneHeight = data.M() * blockSide;
+        int sceneWidth = data.W() * blockSide;
+        int sceneHeight = data.H() * blockSide;
 
         // 初始化视图
         EventQueue.invokeLater(() -> {
             frame = new AlgoFrame("迷宫求解", sceneWidth, sceneHeight);
+            frame.addKeyListener(new AlgoKeyListener());
 
             new Thread(() -> {
                 run();
@@ -54,7 +56,10 @@ public class AlgoVisualizer {
 
         if (x == data.getExitX() && y == data.getExitY())
             return true;
-
+        while (!isAnimated) {
+            // TODO
+            System.out.println("暂停中...");
+        }
         for(int i = 0; i < 4; i ++) {
             int newX = x + d[i][0];
             int newY = y + d[i][1];
@@ -64,7 +69,6 @@ public class AlgoVisualizer {
                 if (go(newX, newY))
                     return true;
         }
-
         setData(x, y, false);
 
         return false;
@@ -76,6 +80,16 @@ public class AlgoVisualizer {
         }
         frame.render(data);
         AlgoVisHelper.pause(DELAY);
+    }
+
+    private class AlgoKeyListener extends KeyAdapter{
+
+        @Override
+        public void keyReleased(KeyEvent event){
+            System.out.println(isAnimated);
+            if(event.getKeyChar() == ' ')
+                isAnimated = !isAnimated;
+        }
     }
 
     public static void main(String[] args) {
