@@ -19,7 +19,7 @@ public class SortTestHelper {
         return arr;
     }
 
-    // 生成一个近乎有序的数组
+    // 生成一个近乎有序的数组，n为数组元素个数，swapTimes为模仿近乎有序而随机对调的个数
     public static Integer[] generateNearlyOrderedArray(int n, int swapTimes){
 
         Integer[] arr = new Integer[n];

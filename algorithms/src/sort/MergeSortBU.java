@@ -7,7 +7,6 @@ import java.util.Arrays;
 // 注意：以循环层数来判断算法的复杂度 并非总是有效的，Merge Sort BU 就是个反例
 public class MergeSortBU {
 
-    // 该算法类无需也不允许产生任何实例
     private MergeSortBU() {}
 
     // 迭代实现归并排序

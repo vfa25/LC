@@ -2,7 +2,6 @@ package sort;
 
 public class ShellSort {
 
-    // 该算法类无需也不允许产生任何实例
     private ShellSort() {}
 
     public static void sort(Comparable[] arr){

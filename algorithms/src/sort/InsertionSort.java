@@ -4,7 +4,6 @@ import java.util.*;
 
 public class InsertionSort {
 
-    // 该算法类无需也不允许产生任何实例
     private InsertionSort() {}
 
     public static void sort(Comparable[] arr){
