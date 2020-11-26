@@ -18,7 +18,7 @@ public class MergeSort {
 //            return;
 
         // 优化1: 对于小规模数组, 使用插入排序
-        if( r - l <= 15 ){
+        if (r - l <= 15) {
             InsertionSort.sort(arr, l, r);
             return;
         }

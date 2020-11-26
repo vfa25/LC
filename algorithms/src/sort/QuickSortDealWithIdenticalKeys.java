@@ -18,7 +18,7 @@ public class QuickSortDealWithIdenticalKeys {
 //            return;
 
         // 优化1: 对于小规模数组, 使用插入排序
-        if( r - l <= 15 ){
+        if (r - l <= 15) {
             InsertionSort.sort(arr, l, r);
             return;
         }
@@ -41,23 +41,23 @@ public class QuickSortDealWithIdenticalKeys {
 
         while (true) {
             // 注意这里的边界, 是 < ，而不能是 <=
-            while(i <= r-1 && arr[i].compareTo(v) < 0)
+            while (i <= r-1 && arr[i].compareTo(v) < 0)
                 i++;
 
             // 注意这里的边界, 是 > ，而不能是 >=
-            while(j >= l && arr[j].compareTo(v) > 0)
+            while (j >= l && arr[j].compareTo(v) > 0)
                 j--;
             // 因为对于连续相等的情况，
             // 并不希望它们归于一边，而是交换 i 和 j ，尽量保证子树的平衡。
 
-            if(i > j)
+            if (i > j)
                 break;
 
             swap(arr, i, j);
             i++;
             j--;
         }
-
+        // i 此时停在左起第一个 >= pivot；j 此时停在右起第一个 <= pivot
         swap(arr, i, r);
         return i;
     }
@@ -69,18 +69,16 @@ public class QuickSortDealWithIdenticalKeys {
     }
 
     static public void main(String[] args) {
-        Comparable[] a = {4, 3, 4, 5, 6, 2, 1, 7};
-        QuickSortDealWithIdenticalKeys.sort(a);
-        for( int i = 0 ; i < a.length ; i ++ ){
-            System.out.print(a[i]);
-            System.out.print(' ');
-        }
-        System.out.println();
+//        Comparable[] a = {4, 3, 4, 5, 6, 2, 1, 7};
+//        QuickSortDealWithIdenticalKeys.sort(a);
+//        for( int i = 0 ; i < a.length ; i ++ ){
+//            System.out.print(a[i]);
+//            System.out.print(' ');
+//        }
+//        System.out.println();
         int N = 1000000;
-//        Integer[] arr = SortTestHelper.generateRandomArray(N, 0, N);
-//        Integer[] arr = SortTestHelper.generateNearlyOrderedArray(N, 100);
-//        Integer[] arr = SortTestHelper.generateRandomArray(N, 0, 10);
-//        SortTestHelper.testSort("sort.QuickSort", arr);
-//        SortTestHelper.testSort("sort.MergeSort", arr);
+        Integer[] arr = SortTestHelper.generateRandomArray(N, 0, 10);
+        SortTestHelper.testSort("sort.MergeSort", arr);
+        SortTestHelper.testSort("sort.QuickSortDealWithIdenticalKeys", arr);
     }
 }

@@ -30,7 +30,7 @@ public class MergeSortBU {
         // 双游针开始归并排序
         // 初始化，i指向左半部分的起始索引l; j指向右半部分起始索引mid+1
         int i = l, j = mid + 1;
-        for(int k = l; k <= r; k++) {
+        for (int k = l; k <= r; k++) {
             if (i > mid) {
                 // 左游针索引合法边界，左游针到底
                 arr[k] = aux[j - l];
